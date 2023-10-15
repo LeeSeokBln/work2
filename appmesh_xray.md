@@ -188,7 +188,7 @@ taskdef.yml
         },
         {
             "name": "envoy",
-            "image": "840364872350.dkr.ecr.ap-northeast-2.amazonaws.com/aws-appmesh-envoy:v1.12.3.0-prod",
+            "image": "840364872350.dkr.ecr.ap-northeast-2.amazonaws.com/aws-appmesh-envoy:v1.26.4.0-prod",
             "cpu": 0,
             "memoryReservation": 128,
             "essential": true,
@@ -251,8 +251,8 @@ taskdef.yml
         }
     ],
     "family": "skills-product-td",
-    "taskRoleArn": "arn:aws:iam::148010479988:role/ecsTaskExecutionRole",
-    "executionRoleArn": "arn:aws:iam::148010479988:role/ecsTaskExecutionRole",
+    "taskRoleArn": "arn:aws:iam::749692678017:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::749692678017:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -334,6 +334,6 @@ taskdef.yml
             }
         ]
     },
-    "registeredBy": "arn:aws:iam::148010479988:root"
+    "registeredBy": "arn:aws:iam::749692678017:root"
 }
 ```
